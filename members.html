@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWICE | Members</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="members.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <video class="video-bg" autoplay muted loop playsinline>
+        <source src="Twice.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo"><i class='bx bxl-deezer'></i> <span>TWICE</span></div>
+            <nav class="nav-links">
+                <a href="index.html"><i class='bx bx-home-alt'></i> Home</a>
+                <a href="albums.html"><i class='bx bx-album'></i> Albums</a>
+                <a href="members.html" class="active"><i class='bx bx-group'></i> Members</a>
+                <a href="#"><i class='bx bx-envelope'></i> Contact</a>
+            </nav>
+            
+            <div class="now-playing-sidebar">
+                <p class="sidebar-label">Now Playing</p>
+                <div class="sidebar-song">
+                    <img src="TWICE.jpg" id="sidebar-img" alt="Now Playing">
+                    <div>
+                        <p id="sidebar-title">Select a song</p>
+                        <small id="sidebar-album">TWICE</small>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content members-page">
+            <header class="content-header">
+                <h1>Meet the Members</h1>
+                <p>9 talented artists, one incredible journey</p>
+            </header>
+
+            <!-- Members Container - Comfy Grid -->
+            <section class="members-container">
+                
+                <!-- Nayeon -->
+                <article class="member-card" data-member="nayeon">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Nayeon/nayeon1.jpg" alt="Nayeon">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge Unnie-badge"><i class='bx bx-star'></i>Unnie</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Nayeon</h3>
+                        <p class="member-role">Lead Vocalist, Center</p>
+                        <div class="member-color-bar" style="--member-color: #5bcefa;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Sept 22, 1995</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Korean</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">ISTP</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Sky Blue</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">The oldest member and face of TWICE. Known for her bright personality and powerful vocals. First member to debut solo with "POP!" in 2022.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Nayeon/nayeon1.jpg" alt="Nayeon 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Nayeon/nayeon2.jpg" alt="Nayeon 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Nayeon/nayeon3.jpg" alt="Nayeon 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Nayeon/nayeon4.jpg" alt="Nayeon 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Nayeon/nayeon5.jpg" alt="Nayeon 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Nayeon/nayeon6.jpg" alt="Nayeon 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Jeongyeon -->
+                <article class="member-card" data-member="jeongyeon">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Jeongyeon/jeongyeon1.jpg" alt="Jeongyeon">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge Voice-Power-badge"><i class='bx bxs-dog'></i>Voice Power</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Jeongyeon</h3>
+                        <p class="member-role">Lead Vocalist</p>
+                        <div class="member-color-bar" style="--member-color: #a8d8ea;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Nov 1, 1996</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Korean</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">ESFJ</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Yellow-Green</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">Known for her unique vocal tone and calm presence. Sister of actress Gong Seung-yeon. Brings reliability and maturity to the group.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Jeongyeon/jeongyeon1.jpg" alt="Jeongyeon 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jeongyeon/jeongyeon2.jpg" alt="Jeongyeon 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jeongyeon/jeongyeon3.jpg" alt="Jeongyeon 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jeongyeon/jeongyeon4.jpg" alt="Jeongyeon 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jeongyeon/jeongyeon5.jpg" alt="Jeongyeon 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jeongyeon/jeongyeon6.jpg" alt="Jeongyeon 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Momo -->
+                <article class="member-card" data-member="momo">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Momo/momo1.jpg" alt="Momo">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge Peach-badge"><i class='bx bxs-fruit'></i>Dancing Machine</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Momo</h3>
+                        <p class="member-role">Main Dancer</p>
+                        <div class="member-color-bar" style="--member-color: #ff9a9e;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Nov 9, 1996</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Japanese</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">INFP</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Pink</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">The dancing machine of TWICE from Osaka, Japan. Renowned for her incredible dance skills and powerful performances. Part of MiSaMo sub-unit.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Momo/momo1.jpg" alt="Momo 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Momo/momo2.jpg" alt="Momo 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Momo/momo3.jpg" alt="Momo 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Momo/momo4.jpg" alt="Momo 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Momo/momo5.jpg" alt="Momo 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Momo/momo6.jpg" alt="Momo 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Sana -->
+                <article class="member-card " data-member="sana">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Sana/Sana3.jpg" alt="Sana">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge shy-badge"><i class='bx bxl-gitlab'></i> Shy Shy</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Sana</h3>
+                        <p class="member-role">Vocalist</p>
+                        <div class="member-color-bar" style="--member-color: #fbc2eb;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Dec 29, 1996</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Japanese</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">ENFP</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Purple</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">From Osaka, Japan. Famous for her "Shy Shy Shy" and cheerful personality. Hosts "Sana's Fridge Interview" and is a brand ambassador for luxury labels.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Sana/Sana1.jpg" alt="Sana 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Sana/Sana2.jpg" alt="Sana 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Sana/Sana3.jpg" alt="Sana 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Sana/Sana4.jpg" alt="Sana 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Sana/Sana5.jpg" alt="Sana 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Sana/Sana6.jpg" alt="Sana 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Jihyo -->
+                <article class="member-card" data-member="jihyo">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Jihyo/Jihyo1.jpg" alt="Jihyo">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge leader-badge"><i class='bx bx-crown'></i>Leader</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Jihyo</h3>
+                        <p class="member-role">Leader, Main Vocalist</p>
+                        <div class="member-color-bar" style="--member-color: #ffd93d;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Feb 1, 1997</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Korean</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">ESTP</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Apricot</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">Trained for 10 years before debuting. The powerhouse vocalist and leader who guides TWICE with dedication. Solo debut "ZONE" in 2023.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Jihyo/Jihyo1.jpg" alt="Jihyo 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jihyo/Jihyo2.jpg" alt="Jihyo 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jihyo/Jihyo3.jpg" alt="Jihyo 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jihyo/Jihyo4.jpg" alt="Jihyo 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jihyo/Jihyo5.jpg" alt="Jihyo 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Jihyo/Jihyo6.jpg" alt="Jihyo 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Mina -->
+                <article class="member-card" data-member="mina">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Mina/mina1.jpg" alt="Mina">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge Ballet-badge">Ballet</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Mina</h3>
+                        <p class="member-role">Lead Dancer</p>
+                        <div class="member-color-bar" style="--member-color: #a8e6cf;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Mar 24, 1997</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Japanese-American</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">ISTP</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Mint</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">Born in Texas, USA. Known for her elegant ballet-influenced dancing style. Brings grace and calm energy to every performance. Part of MiSaMo.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Mina/mina1.jpg" alt="Mina 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Mina/mina2.jpg" alt="Mina 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Mina/mina3.jpg" alt="Mina 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Mina/mina4.jpg" alt="Mina 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Mina/mina5.jpg" alt="Mina 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Mina/mina6.jpg" alt="Mina 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Dahyun -->
+                <article class="member-card" data-member="dahyun">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Dahyun/dubu1.jpg" alt="Dahyun">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge Dubu-badge"><i class='bx bxl-twitter'></i>Dubu</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Dahyun</h3>
+                        <p class="member-role">Lead Rapper</p>
+                        <div class="member-color-bar" style="--member-color: #ffffff;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">May 28, 1998</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Korean</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">ISFJ</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">White</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">Famous for her bright smile and iconic eagle dance. A talented rapper and pianist who brings positive energy. Starred in films "You Are the Apple of My Eye" and "Run to You".</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Dahyun/dubu1.jpg" alt="Dubu 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Dahyun/dubu2.jpg" alt="Dubu 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Dahyun/dubu3.jpg" alt="Dubu 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Dahyun/dubu4.jpg" alt="Dubu 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Dahyun/dubu5.jpg" alt="Dubu 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Dahyun/dubu6.jpg" alt="Dubu 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Chaeyoung -->
+                <article class="member-card" data-member="chaeyoung">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Chaeyoung/chae1.jpg" alt="Chaeyoung">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge strawberry-badge"><i class='bx bxs-heart'></i> Strawberry</span>
+                            <!-- <i class="fas fa-ad"></i> -->
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Chaeyoung</h3>
+                        <p class="member-role">Main Rapper</p>
+                        <div class="member-color-bar" style="--member-color: #ff6b6b;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Apr 23, 1999</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Korean</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">INFP</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Red</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">Creative spirit with unique rap style. Contributes to songwriting and loves drawing. Released solo album "Lil Fantasy Vol. 1" in 2025. Fashion icon with edgy style.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Chaeyoung/chae1.jpg" alt="Chaeyoung 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Chaeyoung/chae2.jpg" alt="Chaeyoung 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Chaeyoung/chae3.jpg" alt="Chaeyoung 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Chaeyoung/chae4.jpg" alt="Chaeyoung 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Chaeyoung/chae5.jpg" alt="Chaeyoung 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Chaeyoung/chae6.jpg" alt="Chaeyoung 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+                <!-- Tzuyu -->
+                <article class="member-card" data-member="tzuyu">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <img src="Member/Tzuyu/tzuyu1.jpg" alt="Tzuyu">
+                        </div>
+                        <div class="member-badges">
+                            <span class="badge maknae-badge">Maknae</span>
+                        </div>
+                    </div>
+                    <div class="member-preview">
+                        <h3>Tzuyu</h3>
+                        <p class="member-role">Lead Dancer, Visual</p>
+                        <div class="member-color-bar" style="--member-color: #c7ceea;"></div>
+                    </div>
+                    <div class="member-details">
+                        <div class="details-inner">
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class='bx bx-cake'></i>
+                                    <span class="label">Birthday</span>
+                                    <span class="value">Jun 14, 1999</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-flag'></i>
+                                    <span class="label">Nationality</span>
+                                    <span class="value">Taiwanese</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-brain'></i>
+                                    <span class="label">MBTI</span>
+                                    <span class="value">ISFP</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span class="label">Color</span>
+                                    <span class="value">Blue</span>
+                                </div>
+                            </div>
+                            <p class="member-bio">The youngest member from Tainan, Taiwan. Known for stunning visuals and elegant presence. Tallest member who plays guzheng. Solo debut "abouTZU" in 2024.</p>
+                            <div class="member-gallery-preview">
+                                <h4><i class='bx bx-images'></i> Gallery</h4>
+                                <div class="mini-gallery">
+                                    <img src="Member/Tzuyu/tzuyu1.jpg" alt="Tzuyu 1" onclick="openLightbox(this.src)">
+                                    <img src="Member/Tzuyu/tzuyu2.jpg" alt="Tzuyu 2" onclick="openLightbox(this.src)">
+                                    <img src="Member/Tzuyu/tzuyu3.jpg" alt="Tzuyu 3" onclick="openLightbox(this.src)">
+                                    <img src="Member/Tzuyu/tzuyu4.jpg" alt="Tzuyu 4" onclick="openLightbox(this.src)">
+                                    <img src="Member/Tzuyu/tzuyu5.jpg" alt="Tzuyu 5" onclick="openLightbox(this.src)">
+                                    <img src="Member/Tzuyu/tzuyu6.jpg" alt="Tzuyu 6" onclick="openLightbox(this.src)">
+                                </div>
+                            </div>
+                            <div class="member-social">
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="expand-btn" onclick="toggleMember(this)">
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                </article>
+
+            </section>
+        </main>
+    </div>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <div class="player-section song-info">
+            <img src="TWICE.jpg" id="player-img" alt="Album Art">
+            <div class="song-meta">
+                <h4 id="player-title">Select a song</h4>
+                <p id="player-artist">TWICE</p>
+            </div>
+            <i class='bx bx-heart like-btn'></i>
+        </div>
+
+        <div class="player-section player-center">
+            <div class="player-controls">
+                <i class='bx bx-shuffle shuffle-btn'></i>
+                <i class='bx bx-skip-previous' id="prevBtn"></i>
+                <div class="play-btn-wrapper">
+                    <i class='bx bx-play-circle' id="masterPlay"></i>
+                </div>
+                <i class='bx bx-skip-next' id="nextBtn"></i>
+                <i class='bx bx-repeat repeat-btn'></i>
+            </div>
+            <div class="progress-container">
+                <span id="currentTime">0:00</span>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress" id="progress">
+                        <div class="progress-handle" id="progressHandle"></div>
+                    </div>
+                </div>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="player-section player-extra">
+            <i class='bx bx-list-ul'></i>
+            <div class="volume-container">
+                <i class='bx bx-volume-full' id="volumeIcon"></i>
+                <div class="volume-bar" id="volumeBar">
+                    <div class="volume-progress" id="volumeProgress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <button class="lightbox-close" onclick="closeLightbox()">
+            <i class='bx bx-x'></i>
+        </button>
+        <img src="" alt="Gallery Image" id="lightbox-img">
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+        // Toggle member expand/collapse
+        function toggleMember(btn) {
+            const card = btn.closest('.member-card');
+            const isExpanded = card.classList.contains('expanded');
+            
+            // Close all other cards
+            document.querySelectorAll('.member-card.expanded').forEach(c => {
+                if (c !== card) {
+                    c.classList.remove('expanded');
+                    c.querySelector('.expand-btn i').classList.replace('bx-chevron-up', 'bx-chevron-down');
+                }
+            });
+            
+            // Toggle current card
+            card.classList.toggle('expanded');
+            const icon = btn.querySelector('i');
+            
+            if (card.classList.contains('expanded')) {
+                icon.classList.replace('bx-chevron-down', 'bx-chevron-up');
+                setTimeout(() => {
+                    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 100);
+            } else {
+                icon.classList.replace('bx-chevron-up', 'bx-chevron-down');
+            }
+        }
+        
+        // Lightbox functions
+        function openLightbox(src) {
+            const lightbox = document.getElementById('lightbox');
+            const img = document.getElementById('lightbox-img');
+            img.src = src;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        // Close on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeLightbox();
+                document.querySelectorAll('.member-card.expanded').forEach(c => {
+                    c.classList.remove('expanded');
+                    c.querySelector('.expand-btn i').classList.replace('bx-chevron-up', 'bx-chevron-down');
+                });
+            }
+        });
+        
+        // Add stagger animation on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.member-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                setTimeout(() => {
+                    card.style.transition = 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 80);
+            });
+        });
+        
+        console.log('🎭 TWICE Members Page - Comfy Edition Loaded!');
+    </script>
+</body>
+</html>
